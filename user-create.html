@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -12,8 +12,8 @@
             rel="stylesheet"
             href="assets/vendor/bootstrap/css/bootstrap.min.css"
     />
-    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/libs/css/style.css" />
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/libs/css/style.css"/>
     <link
             rel="stylesheet"
             href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css"
@@ -30,7 +30,7 @@
             rel="stylesheet"
             href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css"
     />
-    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css" />
+    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css"/>
     <link
             rel="stylesheet"
             href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css"
@@ -67,16 +67,12 @@
                     <li class="nav-item dropdown nav-user">
                         <a
                                 class="nav-link nav-user-img"
-                                href="#"
+                                href="welcome.html"
                                 id="navbarDropdownMenuLink2"
                                 data-toggle="dropdown"
                                 aria-haspopup="true"
                                 aria-expanded="false"
-                        ><img
-                                src="assets/images/avatar-1.jpg"
-                                alt=""
-                                class="user-avatar-md rounded-circle"
-                        /></a>
+                        ><i class="fas fa-coffee"></i></a>
                         <div
                                 class="dropdown-menu dropdown-menu-right nav-user-dropdown"
                                 aria-labelledby="navbarDropdownMenuLink2"
@@ -115,73 +111,88 @@
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                 >
-
-                    <!-- Build Left side menu items here-->
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav flex-column">
                         <li class="nav-item">
                             <a
-                                    class="nav-link active"
+                                    class="nav-link"
                                     href="#"
                                     data-toggle="collapse"
                                     aria-expanded="false"
-                                    data-target="#submenu-1"
-                                    aria-controls="submenu-1"
-                            ><i class="fa fa-fw fa-user-circle"></i>Administration
-                                <span class="badge badge-success">6</span></a>
-
-                            <!-- это делаю я -->
-
-
-                            <div id="submenu-1" class="collapse submenu" style="">
+                                    data-target="#submenu-2"
+                                    aria-controls="submenu-2"
+                            ><i class="fa fa-fw fa-user-circle"></i>Administration</a
+                            >
+                            <div id="submenu-2" class="collapse submenu" style="">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
-                                        <a
-                                                class="nav-link"
-                                                href="#"
-                                        >User Create</a
+                                        <a class="nav-link" href="user-create.html"
+                                        ><i class="fas fa-diagnoses"></i>User Create
+                                            <span class="badge badge-secondary">New</span></a
                                         >
-                                        <div id="submenu-1-2" class="collapse submenu" style="">
-                                            <ul class="nav flex-column">
-                                            </ul>
-                                        </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="dashboard-finance.html"
-                                        >Project Create</a
+                                        <a class="nav-link" href="project_create.html"
+                                        ><i class="fas fa-rocket"></i>Project Create</a
                                         >
                                     </li>
                                 </ul>
                             </div>
-
-                            <!-- это конец того что делаю я -->
-
-
+                        </li>
                         <li class="nav-item">
                             <a
                                     class="nav-link"
                                     href="#"
                                     data-toggle="collapse"
                                     aria-expanded="false"
-                                    data-target="#submenu-2"
-                                    aria-controls="submenu-2"
-                            ><i class="fad fa-chalkboard-teacher"></i>Manager</a
+                                    data-target="#submenu-3"
+                                    aria-controls="submenu-3"
+                            ><i class="fas fa-user-secret"></i>Manager</a
                             >
+                            <div id="submenu-3" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="task-assign.html"
+                                        ><i class="fas fa-shipping-fast"></i>Task Assign</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="project-status.html"
+                                        ><i class="fas fa-hand-spock"></i>Project Status</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="nav-item">
                             <a
                                     class="nav-link"
                                     href="#"
                                     data-toggle="collapse"
                                     aria-expanded="false"
-                                    data-target="#submenu-2"
-                                    aria-controls="submenu-2"
-                            ><i class="fas fa-user-graduate"></i>Employee</a
+                                    data-target="#submenu-4"
+                                    aria-controls="submenu-4"
+                            ><i class="fas fa-users"></i>Employee</a
                             >
+                            <div id="submenu-4" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pending-tasks.html"
+                                        ><i class="fas fa-hourglass-half"></i>Pending Tasks</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="archive.html"
+                                        ><i class="fas fa-briefcase"></i>Archive</a
+                                        >
+                                    </li>
 
-
-
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -193,105 +204,52 @@
     <!-- wrapper  -->
     <!-- ============================================================== -->
     <div class="dashboard-wrapper">
-        <div class="dashboard-ecommerce">
-            <div class="container-fluid dashboard-content">
+        <div class="container-fluid dashboard-content">
                 <!-- ============================================================== -->
                 <!-- pageheader  -->
                 <!-- ============================================================== -->
-
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="page-header">
-                            <h2 class="pageheader-title">
-                                User Create
-                            </h2>
-                            <p class="pageheader-text">
-                                <!-- ============================================================== -->
-                                <!-- end pageheader  -->
-                                <!-- ============================================================== -->
-                        </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="page-header" id="top">
+                        <h2 class="pageheader-title">User Create</h2>
                     </div>
-                    <!-- ============================================================== -->
-
-
-
-                    <!-- Делаю я
-                     <!-- ============================================================== -->
-                    <!-- basic form -->
-                    <!-- ============================================================== -->
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <form action="#" id="basicform" data-parsley-validate="">
-                                    <div class="form-group">
-                                        <label for="inputUserName">First Name</label>
-                                        <input id="inputUserName" type="text" name="name" data-parsley-trigger="change" required="" placeholder="Enter user name" autocomplete="off" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputEmail">Email address</label>
-                                        <input id="inputEmail" type="email" name="email" data-parsley-trigger="change" required="" placeholder="Enter email" autocomplete="off" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputPassword">Password</label>
-                                        <input id="inputPassword" type="password" placeholder="Password" required="" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputRepeatPassword">Repeat Password</label>
-                                        <input id="inputRepeatPassword" data-parsley-equalto="#inputPassword" type="password" required="" placeholder="Password" class="form-control">
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
-                                            <label class="be-checkbox custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input"><span class="custom-control-label">Remember me</span>
-                                            </label>
-                                        </div>
-                                        <div class="col-sm-6 pl-0">
-                                            <p class="text-right">
-                                                <button type="submit" class="btn btn-space btn-primary">Submit</button>
-                                                <button class="btn btn-space btn-secondary">Cancel</button>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ============================================================== -->
-                    <!-- end basic form -->
-                    <!-- ============================================================== -->
-
-
-                    Конец Делаю я -->
-                    <!-- ============================================================== -->
                 </div>
+            </div>
                 <!-- ============================================================== -->
-                <!-- end wrapper  -->
+                <!-- end pageheader  -->
                 <!-- ============================================================== -->
             </div>
         </div>
-            <!-- ============================================================== -->
-            <!-- end main wrapper  -->
-            <!-- ============================================================== -->
-            <!-- Optional JavaScript -->
-            <!-- jquery 3.3.1 -->
-            <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-            <!-- bootstap bundle js -->
-            <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-            <!-- slimscroll js -->
-            <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
-            <!-- main js -->
-            <script src="assets/libs/js/main-js.js"></script>
-            <!-- chart chartist js -->
-            <script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
-            <!-- sparkline js -->
-            <script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
-            <!-- morris js -->
-            <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
-            <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
-            <!-- chart c3 js -->
-            <script src="assets/vendor/charts/c3charts/c3.min.js"></script>
-            <script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
-            <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
-            <script src="assets/libs/js/dashboard-ecommerce.js"></script>
+        <!-- ============================================================== -->
+
+        <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- end wrapper  -->
+    <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- end main wrapper  -->
+<!-- ============================================================== -->
+<!-- Optional JavaScript -->
+<!-- jquery 3.3.1 -->
+<script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<!-- bootstap bundle js -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+<!-- slimscroll js -->
+<script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+<!-- main js -->
+<script src="assets/libs/js/main-js.js"></script>
+<!-- chart chartist js -->
+<script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+<!-- sparkline js -->
+<script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+<!-- morris js -->
+<script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+<script src="assets/vendor/charts/morris-bundle/morris.js"></script>
+<!-- chart c3 js -->
+<script src="assets/vendor/charts/c3charts/c3.min.js"></script>
+<script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+<script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
+<script src="assets/libs/js/dashboard-ecommerce.js"></script>
 </body>
 </html>
