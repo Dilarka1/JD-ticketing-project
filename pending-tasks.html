@@ -262,146 +262,147 @@
                             </div>
                             <div class="col-sm-8 col-md-8">
                                 <div class="form-group">
-                                    <label>Assigned Employee</label>
-                                    <select name="assignedemployee" id="assignedemployee" class="custom-select"
+                                    <label>Status</label>
+                                    <select name="status" id="status" class="custom-select"
                                             required="required">
                                         <option value="select" selected="selected">Select</option>
-                                        <option value="admin">Donal Duck</option>
-                                        <option value="manager">Captain Sparrow</option>
-                                        <option value="employee">Mickey Mouse</option>
+                                        <option value="admin">In Progress</option>
+                                        <option value="manager">Completed</option>
+                                        <option value="employee">Archived</option>
                                     </select>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-8 col-md-8 col-lg-8">
-                                    <div class="float-right">
-                                        <button type="button" class="btn btn-success">Save</button>
-                                    </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <div class="float-right">
+                                    <button type="button" class="btn btn-success">Save</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-sm-12">
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="page-header">
-                                <h2 class="pageheader-title">Tasks List</h2>
-                            </div>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-header">
+                            <h2 class="pageheader-title">Tasks List</h2>
                         </div>
                     </div>
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th scope="col">Project</th>
-                            <th scope="col">Task Subject</th>
-                            <th scope="col">Assigned Employee</th>
-                            <th scope="col">Assigned Date</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">#Action</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>PRJ001 Disneyland</td>
-                            <td>DataBase Connection</td>
-                            <td>Darth Vader</td>
-                            <td>11.11.2020 10:19 AM</td>
-                            <td>In Progress</td>
-                            <td class="actions">
-                                <a href="">
-                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>PRJ008 Mickey Mouse</td>
-                            <td>Server LAN Settings</td>
-                            <td>Jack Sparrow</td>
-                            <td>11.05.2020 03:33 PM</td>
-                            <td>Completed</td>
-                            <td class="actions">
-                                <a href="">
-                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>PRJ011 Star Wars</td>
-                            <td>REST Codes Development</td>
-                            <td>Tony Stark</td>
-                            <td>10.25.2020 02:56 PM</td>
-                            <td>In Progress</td>
-                            <td class="actions">
-                                <a href="">
-                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>PRJ015 Avengers</td>
-                            <td>General Analysis</td>
-                            <td>Luke Skywalker</td>
-                            <td>11.05.2020 08:15 AM</td>
-                            <td>In Progress</td>
-                            <td class="actions">
-                                <a href="">
-                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>PRJ020 Avatar</td>
-                            <td>Environment Setup</td>
-                            <td>Donal Duck</td>
-                            <td>11.01.2020 4:45 PM</td>
-                            <td>Completed</td>
-                            <td class="actions">
-                                <a href="">
-                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
-                                </a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <!-- footer -->
-                    <footer class="page-footer font-small blue fixed-bottom">
-                        <div class="footer-copyright text-center py-3">© 2020 Cybertek – All Rights Reserved</div>
-                    </footer>
                 </div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">Project</th>
+                        <th scope="col">Task Subject</th>
+                        <th scope="col">Assigned Employee</th>
+                        <th scope="col">Assigned Date</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">#Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>PRJ001 Disneyland</td>
+                        <td>DataBase Connection</td>
+                        <td>Darth Vader</td>
+                        <td>11.11.2020 10:19 AM</td>
+                        <td>In Progress</td>
+                        <td class="actions">
+                            <a href="">
+                                <button type="button" class="btn btn-warning btn-sm">Update</button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PRJ008 Mickey Mouse</td>
+                        <td>Server LAN Settings</td>
+                        <td>Jack Sparrow</td>
+                        <td>11.05.2020 03:33 PM</td>
+                        <td>Completed</td>
+                        <td class="actions">
+                            <a href="">
+                                <button type="button" class="btn btn-warning btn-sm">Update</button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PRJ011 Star Wars</td>
+                        <td>REST Codes Development</td>
+                        <td>Tony Stark</td>
+                        <td>10.25.2020 02:56 PM</td>
+                        <td>In Progress</td>
+                        <td class="actions">
+                            <a href="">
+                                <button type="button" class="btn btn-warning btn-sm">Update</button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PRJ015 Avengers</td>
+                        <td>General Analysis</td>
+                        <td>Luke Skywalker</td>
+                        <td>11.05.2020 08:15 AM</td>
+                        <td>In Progress</td>
+                        <td class="actions">
+                            <a href="">
+                                <button type="button" class="btn btn-warning btn-sm">Update</button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PRJ020 Avatar</td>
+                        <td>Environment Setup</td>
+                        <td>Donal Duck</td>
+                        <td>11.01.2020 4:45 PM</td>
+                        <td>Completed</td>
+                        <td class="actions">
+                            <a href="">
+                                <button type="button" class="btn btn-warning btn-sm">Update</button>
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- footer -->
+                <footer class="page-footer font-small blue fixed-bottom">
+                    <div class="footer-copyright text-center py-3">© 2020 Cybertek – All Rights Reserved</div>
+                </footer>
             </div>
-            <!-- ============================================================== -->
-            <!-- end basic form  -->
-            <!-- ============================================================== -->
         </div>
+        <!-- ============================================================== -->
+        <!-- end basic form  -->
+        <!-- ============================================================== -->
     </div>
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- end wrapper  -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- end main wrapper  -->
-    <!-- ============================================================== -->
-    <!-- Optional JavaScript -->
-    <!-- jquery 3.3.1 -->
-    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <!-- bootstap bundle js -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-    <!-- slimscroll js -->
-    <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
-    <!-- main js -->
-    <script src="assets/libs/js/main-js.js"></script>
-    <!-- chart chartist js -->
-    <script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
-    <!-- sparkline js -->
-    <script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
-    <!-- morris js -->
-    <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
-    <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
-    <!-- chart c3 js -->
-    <script src="assets/vendor/charts/c3charts/c3.min.js"></script>
-    <script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
-    <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
-    <script src="assets/libs/js/dashboard-ecommerce.js"></script>
+</div>
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- end wrapper  -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- end main wrapper  -->
+<!-- ============================================================== -->
+<!-- Optional JavaScript -->
+<!-- jquery 3.3.1 -->
+<script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<!-- bootstap bundle js -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+<!-- slimscroll js -->
+<script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+<!-- main js -->
+<script src="assets/libs/js/main-js.js"></script>
+<!-- chart chartist js -->
+<script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+<!-- sparkline js -->
+<script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+<!-- morris js -->
+<script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+<script src="assets/vendor/charts/morris-bundle/morris.js"></script>
+<!-- chart c3 js -->
+<script src="assets/vendor/charts/c3charts/c3.min.js"></script>
+<script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+<script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
+<script src="assets/libs/js/dashboard-ecommerce.js"></script>
 </body>
 </html>
