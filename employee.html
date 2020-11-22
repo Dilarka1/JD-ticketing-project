@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS --->
+    <link
+            rel="stylesheet"
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/libs/css/style.css"/>
+    <link
+            rel="stylesheet"
+            href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css"
+    />
+    <link
+            rel="stylesheet"
+            href="assets/vendor/charts/chartist-bundle/chartist.css"
+    />
+    <link
+            rel="stylesheet"
+            href="assets/vendor/charts/morris-bundle/morris.css"
+    />
+    <link
+            rel="stylesheet"
+            href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css"/>
+    <link
+            rel="stylesheet"
+            href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css"
+    />
+    <title>Cybertek - Ticketing Project</title>
+</head>
+
+<body>
+<!-- ============================================================== -->
+<!-- main wrapper -->
+<!-- ============================================================== -->
+<div class="dashboard-main-wrapper">
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- wrapper  -->
+    <!-- ============================================================== -->
+    <div class="dashboard-wrapper">
+        <div class="container-fluid dashboard-content">
+            <!-- ============================================================== -->
+            <!-- pageheader  -->
+            <!-- ============================================================== -->
+
+            <!-- ============================================================== -->
+            <!-- end pageheader  -->
+            <!-- ============================================================== -->
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <h2 class="card-header">Welcome to Employee Registration Page</h2>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <label for="firstname" class="col-form-label">First Name</label>
+                                        <input id="firstname" type="text" placeholder="First Name"
+                                               class="form-control"
+                                               required="required">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label for="lastname" class="col-form-label">Last Name</label>
+                                        <input id="lastname" type="text" placeholder="Last Name"
+                                               class="form-control"
+                                               required="required">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-md-3">
+                                    <div class="form-group">
+                                        <label for="birthday">Birthday</label><br>
+
+                                        <input type="date" id="birthday" name="birthday"
+                                               value="mm/dd/yyyy"
+                                               min="2000-01-01" max="2030-12-31" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row"
+                    <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <label for="email" class="col-form-label">Email</label>
+                            <input id="email" type="email" placeholder="Email" class="form-control"
+                                   required="required">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input id="password" type="password" placeholder="Password" class="form-control"
+                                   required="required">
+                        </div>
+                    </div>
+                </div>
+                <div class="row"
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="address" class="col-form-label">Address</label>
+                        <input id="address" type="text" placeholder="Address" class="form-control"
+                               required="required">
+                    </div>
+                </div>
+
+                <div class="row"
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="address2" class="col-form-label">Address2</label>
+                        <input id="address2" type="text" placeholder="Address2" class="form-control"
+                               required="required">
+                    </div>
+                </div>
+
+                <div class="row"
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="city" class="col-form-label">City</label>
+                        <input id="city" type="text" placeholder="City" class="form-control"
+                               required="required">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="state" class="col-form-label">State</label>
+                        <input id="state" type="text" placeholder="State" class="form-control"
+                               required="required">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="zip" class="col-form-label">Zip</label>
+                        <input id="zip" type="text" placeholder="Zip" class="form-control"
+                               required="required">
+                    </div>
+                </div>
+
+                <div class="form-group pt-2">
+                    <button class="btn btn-block btn-primary" type="submit">Register</button>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-8 col-md-6 col-sm-6">
+                        <form>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label for="firstname" class="col-form-label">First Name</label>
+                                        <input id="firstname" type="text" placeholder="First Name"
+                                               class="form-control"
+                                               required="required">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label for="lastname" class="col-form-label">Last Name</label>
+                                        <input id="lastname" type="text" placeholder="Last Name"
+                                               class="form-control"
+                                               required="required">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label for="emailaddress" class="col-form-label">Email Address</label>
+                                        <input id="emailaddress" type="text" placeholder="Email"
+                                               class="form-control"
+                                               required="required">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label for="phonenumber" class="col-form-label">Phone Number</label>
+                                        <input id="phonenumber" type="text" placeholder="Phone Number"
+                                               class="form-control"
+                                               required="required">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label for="password" class="col-form-label">Password</label>
+                                        <input id="password" type="password" placeholder="Password"
+                                               class="form-control"
+                                               required="required">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label for="repassword" class="col-form-label">Confirm Password</label>
+                                        <input id="repassword" type="password"
+                                               placeholder="Confirm Your Password"
+                                               class="form-control" required="required">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label>Gender</label><br>
+                                        <label class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" name="radio-inline" checked=""
+                                                   class="custom-control-input"><span
+                                                class="custom-control-label">Male</span>
+                                        </label>
+                                        <label class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" name="radio-inline"
+                                                   class="custom-control-input"><span
+                                                class="custom-control-label">Female</span>
+                                        </label>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <label>Choose a Role</label>
+                                        <select name="roleid" id="roleid" class="custom-select"
+                                                required="required">
+                                            <option value="select" selected="selected">Select</option>
+                                            <option value="admin">Admin</option>
+                                            <option value="manager">Manager</option>
+                                            <option value="employee">Employee</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-12">
+                                    <div class="float-right">
+                                        <button class="btn btn-success" type="submit">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="page-header">
+                                    <h2 class="pageheader-title">User List</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">E-Mail(username)</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Role</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Ozzy</td>
+                                <td>ozzy@cybertekeschool.com</td>
+                                <td>Male</td>
+                                <td>123-456-78-90</td>
+                                <td>Employee</td>
+                                <td class="actions">
+                                    <a href="">
+                                        <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                    </a>
+                                    <a href="" class="delete-row">
+                                        <button type="button" class="btn btn-secondary btn-sm">Delete</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Jacob</td>
+                                <td>Thornton@mail.ru</td>
+                                <td>Male</td>
+                                <td>098-765-43-21</td>
+                                <td>Employee</td>
+                                <td class="actions">
+                                    <a href="">
+                                        <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                    </a>
+                                    <a href="" class="delete-row">
+                                        <button type="button" class="btn btn-secondary btn-sm">Delete</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Linda</td>
+                                <td>Bird@mail.gov</td>
+                                <td>Female</td>
+                                <td>123-456-78-90</td>
+                                <td>Employee</td>
+                                <td class="actions">
+                                    <a href="">
+                                        <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                    </a>
+                                    <a href="" class="delete-row">
+                                        <button type="button" class="btn btn-secondary btn-sm">Delete</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- footer -->
+                        <footer class="page-footer font-small blue fixed-bottom">
+                            <div class="footer-copyright text-center py-3">© 2020 Cybertek – All Rights
+                                Reserved
+                            </div>
+                        </footer>
+
+                    </div>
+
+                </div>
+                <!-- ============================================================== -->
+                <!-- end basic form  -->
+                <!-- ============================================================== -->
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- end wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <!-- jquery 3.3.1 -->
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <!-- bootstap bundle js -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- slimscroll js -->
+    <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <!-- main js -->
+    <script src="assets/libs/js/main-js.js"></script>
+    <!-- chart chartist js -->
+    <script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+    <!-- sparkline js -->
+    <script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+    <!-- morris js -->
+    <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+    <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
+    <!-- chart c3 js -->
+    <script src="assets/vendor/charts/c3charts/c3.min.js"></script>
+    <script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+    <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
+    <script src="assets/libs/js/dashboard-ecommerce.js"></script>
+</body>
+</html>
